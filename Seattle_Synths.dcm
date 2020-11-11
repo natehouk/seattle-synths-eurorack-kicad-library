@@ -1,3 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +12V
+D Power symbol creates a global label with name "+12V"
+K power-flag
+$ENDCMP
+#
+$CMP -12V
+D Power symbol creates a global label with name "-12V"
+K power-flag
+$ENDCMP
+#
+$CMP AudioJack2_SwitchT
+D Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)
+K audio jack receptacle mono headphones phone TS connector
+F ~
+$ENDCMP
+#
+$CMP C_Polarized
+D Polarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , ground
+K power-flag
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer
+D Potentiometer
+K resistor variable
+F ~
+$ENDCMP
+#
+$CMP R_Potentiometer_Trim
+D Trim-potentiometer
+K resistor variable trimpot trimmer
+F ~
+$ENDCMP
+#
 #End Doc Library
